@@ -22,15 +22,17 @@ namespace Vsite.CSharp
             vt1.X = prvaVrijednost;
 
             // TODO: Zadati novo ime "vt2" za objekt tipa VrijednTip i pridružiti mu vrijednost objekta "vt1"
-
+            VrijednTip vt2 = vt1;
 
             // TODO: Dodati dvije naredbe koje će ispisati vrijednosti članova vt1.X, odnosno vt2.X
-
+            Console.WriteLine(vt1.X);
+            Console.WriteLine(vt2.X);
 
             vt1.X = drugaVrijednost;
 
             // TODO: Dodati dvije naredbe koje će ponovno ispisati vrijednosti članova vt1.X, odnosno vt2.X
-
+            Console.WriteLine(vt1.X);
+            Console.WriteLine(vt2.X);
 
             // TODO: Pokrenuti program i provjeriti ispis
         }
@@ -40,16 +42,20 @@ namespace Vsite.CSharp
             RefTip rt1 = new RefTip();
             rt1.X = prvaVrijednost;
 
-            // TODO: Zadati novo ime "rt2" za objekt tipa RefTip i pridružiti mu vrijednost objekta "rt1"
-
+            //  Zadati novo ime "rt2" za objekt tipa RefTip i pridružiti mu vrijednost objekta "rt1"
+            RefTip rt2 = rt1;
 
             // TODO: Dodati dvije naredbe koje će ispisati vrijednosti članova vt1.X, odnosno vt2.X
-
+            Console.WriteLine(rt1.X);
+            Console.WriteLine(rt1.X);
 
             rt1.X = drugaVrijednost;
 
             // TODO: Dodati dvije naredbe koje će ponovno ispisati vrijednosti članova vt1.X, odnosno vt2.X
+            Console.WriteLine(rt1.X);
+            Console.WriteLine(rt1.X);
 
+            rt1.X = drugaVrijednost;
 
             // TODO: Pokrenuti program i provjeriti ispis
         }
